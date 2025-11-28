@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html class="dark" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>صفحة الفيديوهات المزدوجة</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#084a72",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101b22",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk"]
+          },
+          borderRadius: {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      background: linear-gradient(to bottom, #084a72, #042b4f);
+    }
+  </style>
+</head>
+<body class="font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-transparent overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap bg-transparent px-4 sm:px-10 py-3 border-b border-solid border-white/20">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-white">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">شعار عالم البحار</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<a href="index.html"><button style="background-color: orange; padding: 10px;" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-opacity-80 transition-opacity">
+<span class="truncate">رجوع للصفحة الرئيسية</span>
+</button></a>
+</div>
+</header>
+<main class="flex-grow">
+<h1 class="text-white tracking-light text-[32px] font-bold leading-tight px-4 text-right pb-3 pt-6">اكتشف كنوز البحر غير الحيه</h1>
+<!-- <div class="p-4">
+<div class="relative flex items-center justify-center bg-white bg-cover bg-center aspect-video rounded-lg shadow-2xl" data-alt="A vibrant coral reef with colorful fish swimming around" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAU1gx_mN_dxJyFC0KQR42h5hSpUZWhJMhSdOEDibFDDKwYxfi2RnPXQaxQ-rzQchTryn4CW00BNNo6FUM-idgBC4aL4gGmrAhzhaB9g--zVKHhO28RN1Fq0rnRUhKawVePkw6qyXQt-u3R2h2GTJx3rlXuOhsTNRKY80QbBBohddb-MBKUQR4Az3thl9zcBQpxYtXQucJWa-Q6e5YjpFFPVbP2dPLRQYklIQR1jHHt8iXxUE0eAUtVcwE-Z-spIkczJWi7k2VuI9Ka");'>
+<button class="flex shrink-0 items-center justify-center rounded-full size-16 bg-black/40 text-white backdrop-blur-sm hover:bg-black/60 transition-colors">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button> -->
+<!-- <div class="absolute inset-x-0 bottom-0 px-4 py-3">
+<div class="flex h-4 items-center justify-center gap-1">
+<div class="h-1 flex-1 rounded-full bg-white/80"></div>
+<div class="relative"><div class="absolute -left-2 -top-2 size-4 rounded-full bg-white shadow-md"></div></div>
+<div class="h-1 flex-1 rounded-full bg-white/40"></div>
+</div>
+<div class="flex items-center justify-between mt-1">
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">0:37</p>
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">2:23</p>
+</div>
+</div>
+</div>
+</div> -->
+
+<a href="https://drive.google.com/file/d/1SZXWUSTgXySVSNw9vwLJpaaN4VqYKyHW/view?usp=drive_link"><video controls width="90%" style="border-radius: 10px; " poster="كنوز1.jpeg">
+    <source src="invideo-ai-1080 اكتشف كنوز البحر غير الحية! 2025-11-28.mp4">
+</video></a>
+
+
+
+
+<h1 class="text-white tracking-light text-[32px] font-bold leading-tight px-4 text-right pb-3 pt-10">كيفية تكوين اللؤلؤ</h1>
+<!-- <div class="p-4">
+<div class="relative flex items-center justify-center bg-white bg-cover bg-center aspect-video rounded-lg shadow-2xl" data-alt="A majestic sea turtle gliding through deep blue ocean water" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC-5Ok21ACh833_zkxKRs4DnrPjK4h_1pvDu8VRSFRNZRj8ADcPqdlHz1nOkBa1CKDZhFF5piwh7Vx0hTLTxHH_qYCcy2L-mPLTM6vxDAXRmeTSYmxN6YeGgHrJpYitxjigS13MdiK-4NCD0Rjf3WuFZUECxI66sK2LEicryr2Y8KC30uIUwOxBzIBGZVdVAexQarhVKkqGeLA5TE9iZInBYI_obccSLjQ-B97pAMHoaeYLGUZFxECTnp1sKUt6i-CvdLlqygTbd4Y7");'>
+<button class="flex shrink-0 items-center justify-center rounded-full size-16 bg-black/40 text-white backdrop-blur-sm hover:bg-black/60 transition-colors">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+</button>
+<div class="absolute inset-x-0 bottom-0 px-4 py-3">
+<div class="flex h-4 items-center justify-center gap-1">
+<div class="h-1 flex-1 rounded-full bg-white/80"></div>
+<div class="relative"><div class="absolute -left-2 -top-2 size-4 rounded-full bg-white shadow-md"></div></div>
+<div class="h-1 flex-1 rounded-full bg-white/40"></div>
+</div>
+<div class="flex items-center justify-between mt-1">
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">0:52</p>
+<p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">3:14</p>
+</div>
+</div>
+</div>
+</div> -->
+
+
+<video controls width="90%" style="border-radius: 10px; " poster="محار.jpeg">
+    <source src="المحار _ قصص للأطفال قبل النوم _ معلومات للأطفال باللغة العربية(720P_HD).mp4">
+</video>
+
+
+
+
+</main>
+<footer class="mt-16 bg-[#021A33] py-4 px-6 rounded-t-lg">
+<div class="flex items-center justify-between text-white/70">
+<div class="flex items-center gap-4 text-xl">
+<span class="material-symbols-outlined">phishing</span>
+<span class="material-symbols-outlined">scuba_diving</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="text-sm">© 2024 عالم البحار. جميع الحقوق محفوظة.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>

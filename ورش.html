@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="dark" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>صفحة الورش الإبداعية</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&amp;family=Noto+Sans+Arabic:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#FF7F50",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#042B4F",
+                        "background-dark-gradient-to": "#084A73",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "Noto Sans Arabic", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display">
+<div class="relative flex min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-white/10 dark:border-b-[#273a39] px-4 sm:px-6 md:px-10 py-3">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-primary">
+<svg fill="currentColor" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">مغامرات المحيط</h2>
+</div>
+<a href="index.html"><button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<span class="truncate">رجوع للصفحة الرئيسية</span>
+</button></a>
+</header>
+<main class="flex flex-col gap-8 py-10">
+<div class="flex flex-wrap justify-between gap-3 p-4">
+<div class="flex min-w-72 flex-col gap-3">
+<h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] font-display">الورش</h1>
+<p class="text-white/70 dark:text-[#9bbbba] text-base font-normal leading-normal">ورش إبداعية لصنع حيوانات مائية من الورق</p>
+</div>
+</div>
+
+<a href="https://youtu.be/AuPuTuXG0GU?si=kno6UaQ7_f2A6iJx"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A paper octopus craft with eight tentacles" style='background-image: url("سسس.jpeg");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع سمكه</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اتبع الخطوات لصنع أخطبوط بثمانية أذرع.</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://youtube.com/shorts/7tHrvrH-Wq0?si=Alzo_z2H73a7cIhD"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A paper octopus craft with eight tentacles" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBS5NDovmllexIU4Pc2ksz6iUUBA_Zkn_H-7BXa2CYme3q4AC0V_qWx_V5fx3V-fX2srZU4ODVQoIuQSwmlhpsdMi8mr7v1HMdewUwIRiptPKHcqjCQ8G4ezRC9zOQN8bWJBBzCQMf8bQrQyGS_eELCl2XRuJkvrpWUXYtPCU9L0lAWjvzEVEljBeXTLIkToi_KoRy0TPMPd5hgonsdzHjiDkONLw9Al3tLMczbP5nf-Ii3hPPqHSTWQBc1FwWvW8AQopJ20c0QOlaX");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع أخطبوط ورقي</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اتبع الخطوات لصنع أخطبوط بثمانية أذرع.</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://youtu.be/NDkCXBeMAIE?si=QEbi7shrn7-1iSNN"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A paper seahorse craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBG1nojFmIAvza4pkTiRsSDuK3yUtISpxGKFCUd838SFjSSwR8OLZbONQIAkDltcNCfGimIwLyJI0hcCYZXFXsHbjRPjtOFtrLPJzeQFlQqGw7qEX0eQ1zKFYkmtpWDwLegVEJtH4gF1FTt-DbK3FV9bk0hKDXkdz3_1vh-JNqQJ1qmoouoBCpoH31LuASBqJfyEmupkY_MN2dPQd2AKK5EFnT2uN3MX_0SI0Zp7XkUrkhaoeVyRmNYjgJ5JKslvJWuHj4dYz7oMMDU");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع حصان البحر</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اكتشف طريقة صنع حصان البحر الفريد من نوعه.</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://youtu.be/8k7mOusK3Fs?si=SHuRdw2F1_UqhH8j"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A cute paper crab craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBkKn9YPdX852vvje4l-lhEW1k7d3AE5j9q4Gc0qU5SXoNEOYZ6J8qo4hHVSVUmD4gf1yORTZMVXpBBJfZl8NE01xN-P1BsnUnmZSkUoJ8JdouXktvMjFulVqvv7LnE1Do3_PiM5apeplHRzJSs0bP1mp_B3nphWSrkgM1e7Ad3Ckmil8IqIPnAOjiPOE_562DMiID2VpcC-ByGrPCoP7iw_4agAlrVO7QFsf4oQiZ6BVuS0w7SEZ7mTNh3bqN75BIKruC6MjJWvS3Y");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع سلطعون لطيف</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اصنع سلطعونًا ورقيًا بلمسة إبداعية.</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://youtu.be/0xtIMK0I4Qg?si=3JK4M3PkC4WNt6Sk"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A paper jellyfish craft floating" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4EBl6q3W78fBlPbqGWuIEL7WbFUpi4jbaK4pMPeU0UCkahIpIiPWB4f63cMdxqD--3-C1TNIQ00ptRWQHb6foeAIq2R5r9BmGUSInsiUSMeWMIr6_A5YqtiXUoMoTEr7joYZQxuDkP-deW6ETqmT34aeakraPv_0mtrNVIPiPE1w3UTTERsTve7nsc0jN0JjrBjBkJleOQOq0u8Ylq0XfuNRbmBYOiTkxXs-eR-_MYUtJueKTfLDGLm8PauXn26UdjRA-v8lle0hz");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع قنديل البحر</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">تعلم كيفية صنع قنديل بحر يسبح في الهواء.</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://youtu.be/5-hnjdecztA?si=GxCPPzI64AnhM9mP"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A paper sea turtle craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCV7Wt1XE__62MKsTBG0v4a3ROSNfm44ou_Lwh_xFKKrs0upTQPCxBCy6hTb5ZT4H4tfWCpe1ZzwUtVAjPk0So0E8D6VYU840L7niTGJ7eiCcebMPhcVqOliU_FU7PgErlEHOabfUdpU7xI1MJEcNSWdiTbVakGsXHVYZWd8TJH8K4xHRA9VLQJYA2hAttBHjW766_tvq-C-dZb7KN-G4xpUwzklVZASWWRyz1Zfxxd8ed8Zj_urk3SOgqUnQBwSwBoyngbbCuS-LHg");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع سلحفاة بحرية</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">شاهد الفيديو لتعرف كيف تصنع سلحفاة بحرية.</p>
+</div>
+</div></a>
+
+
+
+
+<a href="https://youtube.com/watch?v=jCQZJiDCbyc&feature=shared"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A shiny paper starfish craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAR_Fw3_ldtRIUqA1ckh56duUzSsBRAZ4luvnE5zEIJ4OSSZVfT1zYRX3tK0btQEaokTota7666cGRkbSRPCz1-4unbZaUCVXSFfYONxtWfS8ycurrQYfCGSSsKVNcLcAW0TSoREgWYVd3m7RFsGkmXznk51nV9weQkR4_abJ18vM83Uv3vzSBdpZbm-30UR1DYpQiYBdneSVpdTXLMqI_3JGcRJFJ7hnI9JZN5ljDLmLgu-mrguBeZbp9L9eDrpyO-dpUYYXUnXXkt");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع نجمة البحر</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اصنع نجمة بحر لامعة لتزيين غرفتك.</p>
+</div>
+</div>
+</a>
+
+
+
+<a href="https://youtu.be/Bhy7QxxFgHY?si=oHhktBbh9G2N-cMS"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A playful paper whale craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAvwZtLoDlHG7FqvHqbR2p_E4FWvXYpBMPpY1FWcOPjHUVe48oiyTI8bTgE2Q97RMzycep08Sm8nHJCKL6s39RgcdIDTXkH1LTwqD38uAB75TsJOdADMxKsD6KpsGy1E8TN0KofhGx7O0sTdEXz27QhcEuxp0zUbUQ0vBZv4qgMedVIRkmbScAngUiuCQ7SbP-crLJUVeM-yGCIBE4FkilxlUv_A1-umhfwbZbZyAKAt0lTCvCZYMiYjILp4piJMoFHqeu4q-N-VLo-");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع حوت </p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">تعلم كيف تصنع حوتًا ورقيًا ضخمًا .</p>
+</div>
+</div>
+</a>
+
+
+
+
+<a href="https://youtu.be/S4KR5EglKt4?si=lndY1u54yU_Y0hew"><div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg overflow-hidden transition-transform duration-300 group-hover:scale-105 relative" data-alt="A leaping paper dolphin craft" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCw8PWmWwVqxDktYmQQxpS-_6C5-EAeS_vf9R--38cG5jCaQrokz_c7gR6rkg8_VAbcUmPYQL3Rv12Qfsrkac9768zhzdoO6Ogul5JLl_H6CbIck95rsB8--6hGoX2Y95xerKHMup3En2-TnwJ0LPNdTj6tuaHVsDtVP03dLzf-gCcN7zWbpTcbu-ZQ8GAAwtBSu-c19LVDi0M2TV-rJbYZkAP6KhLxV0DDQKuJOJNgFzGZfzdkQm5fDTl6uaQYXAgiCvtNDUvQ0Pbs");'>
+<div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-white bg-opacity-40 backdrop-blur-sm">
+<span class="material-symbols-outlined text-white" style="font-size: 48px; font-variation-settings: 'FILL' 1;">play_arrow</span>
+</div>
+</div>
+</div>
+<div>
+<p class="text-white text-base font-medium leading-normal">ورشة صنع دولفين ورقي</p>
+<p class="text-white/70 dark:text-[#9bbbba] text-sm font-normal leading-normal">اتبع التعليمات لصنع دولفين ورقي يقفز.</p>
+</div>
+</div>
+</div></a>
+
+
+
+
+</main>
+
+</div>
+</div>
+</div>
+</div>
+</body></html>
