@@ -41,37 +41,54 @@
     </script>
 </head>
 <body >
-<video autoplay muted loop id="bg-video">
+<video autoplay muted loop id="bg-video" >
   <source  src="خلفيه الفيديو.mp4" type="video/mp4">
 </video>
 <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
 <div class="layout-container flex h-full grow flex-col">
 <div class="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
 <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-white/20 px-4 sm:px-10 py-3">
-<div class="flex items-center gap-4 text-white">
-<div class="text-coral-pink">
-<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-2.5-3.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm5 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM12 9c-1.93 0-3.5 1.57-3.5 3.5S10.07 16 12 16s3.5-1.57 3.5-3.5S13.93 9 12 9z"></path></svg>
-</div>
-<h2 class="text-white text-2xl font-black font-tajawal tracking-wide">الموهوبين</h2>
-</div>
-<div class="hidden sm:flex flex-1 justify-end gap-8">
-<div class="flex items-center gap-9">
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="index.html">الرئيسية</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الكائنات.html">الكائنات</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الثروات.html">الكنوز البحريه</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="المخاطر.html">المخاطر البحريه</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="العاب.html">الالعاب التعليميه</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="القصص.html"> القصص</a>
-<a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="ورش.html">الورش </a>
-</div>
-</div>
+<header class="flex items-center  justify-between whitespace-nowrap border-b border-solid border-b-white/20 px-4 sm:px-10 py-3 " style="width: 80%;">
+    
+    <div class="flex items-center gap-4 text-white">
+        <div class="text-coral-pink">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-2.5-3.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm5 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM12 9c-1.93 0-3.5 1.57-3.5 3.5S10.07 16 12 16s3.5-1.57 3.5-3.5S13.93 9 12 9z"></path></svg>
+        </div>
+        <h2 class="text-white text-2xl font-black font-tajawal tracking-wide">الموهوبين</h2>
+    </div>
+
+    <nav class="hidden sm:flex flex-1 justify-end gap-8">
+        <div class="flex items-center gap-9">
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="index.html">الرئيسية</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الكائنات.html">الكائنات</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الثروات.html">الكنوز البحريه</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="المخاطر.html">المخاطر البحريه</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="العاب.html">الالعاب التعليميه</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="القصص.html"> القصص</a>
+            <a class="text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="ورش.html">الورش </a>
+        </div>
+    </nav>
+
+    <button id="menu-button" class="sm:hidden text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+    </button>
+    
 </header>
+
+<nav id="mobile-menu" class="hidden sm:hidden border-b border-solid border-b-white/20 bg-[#1f2937] px-4 pb-2">
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="index.html">الرئيسية</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الكائنات.html">الكائنات</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="الثروات.html">الكنوز البحريه</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="المخاطر.html">المخاطر البحريه</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="العاب.html">الالعاب التعليميه</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="القصص.html"> القصص</a>
+    <a class="block py-2 text-white text-base font-medium leading-normal hover:text-turquoise transition-colors" href="ورش.html">الورش </a>
+</nav>
 <main  class="flex-grow">
 <div class="py-10 sm:py-20 @container">
 <div class="@[480px]:p-4">
 <div class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4" data-alt="An enchanting illustration of a magical underwater scene with colorful coral and sea life" style='background-image: linear-gradient(rgba(0, 63, 92, 0.5) 0%, rgba(0, 63, 92, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB0VROzaShTPxqpLgkzE5TpHMQ8SHcHjA0hjlMl0QnG38cNHDzqXxLFJgd-q0ySOA8NYwbTuDAotwggjAGBFjxLyAIQKSK41ttXH7mFK0CHQrdG5oqHe3zC9cPDzZrw11zmlH4T6vINVHgRRGcoqhgB4ocQucZprVwLpEfX7RwojrdPzET3ZDi0IWouL3gces2ZUjppAUukngxQo8uXdMrPhhU1O8WmG4o2E1XHdSX4YBCxX1SAjsu1wt_ujpY6VuIhITAQwR0ykhT");'>
-<div class="flex flex-col gap-4 text-center">
+<div class="flex flex-col gap-4 text-center ">
 <h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] @[480px]:text-6xl font-cairo">
                                         في أعماق البحار يولد الموهوبين
                                     </h1>
@@ -102,7 +119,7 @@
 <p class="text-white text-2xl font-bold font-cairo text-right">كنوز البحر</p>
 <p class="text-white/70 text-base font-normal leading-normal font-cairo text-center">اكشف عن الجواهر الخفية والكنوز الثمينة في المحيط.</p>
 </div>
-<a href="الثروات.html"><button class="flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:bg-yellow-300 transition-colors">
+<a href="الثروات.html"><button  class="text-center flex w-full cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 bg-primary text-background-dark text-base font-bold leading-normal tracking-[0.015em] hover:bg-yellow-300 transition-colors">
 <span class="truncate">ابحث عن الكنوز</span>
 </button></a>
 </div>
@@ -183,4 +200,15 @@
 </div>
 </div>
 </div>
+
+
+<script>
+    document.getElementById('menu-button').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
+
+
+
 </body></html>
